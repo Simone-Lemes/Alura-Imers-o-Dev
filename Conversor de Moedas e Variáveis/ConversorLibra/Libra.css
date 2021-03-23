@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 200px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/05/22/57/house-1239420_960_720.jpg');
+    background-color: #dbd8d828;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .page-title {
+    color:#912f2ffd;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#8a1e1e;
+    margin-top: 20px;
+  }
+  
+  .page-logo {
+    width: 400px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+

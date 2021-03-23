@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono',monospace;
-    min-height: 854px;
+    min-height: 400px;
     background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
     background-color: #000000;
     background-size: cover;
@@ -41,7 +41,7 @@ body {
     position: absolute;
     font-size:20px;
     font-weight:bold;
-    top: 142px;
+    top: 200px;
     left: calc(50% - 72.5px);
     width: 142px;
     text-align:center;

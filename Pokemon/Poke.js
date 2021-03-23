@@ -6,7 +6,7 @@ if (identificacao == 3) {
     //mostrar o h2 do html na calculadora
     document.write("<h2>" + nome + "</h2>")    
 } else {1
-    document.write("<h2>Opção inválida</h2>")
+    document.write("<h2>Que pena o nome dele não é esse, \ntente novamente</h2>")
 }
  
 //escrevendo na tela = document.write()
