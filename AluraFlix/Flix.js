@@ -1,5 +1,5 @@
 //inserir imagens no Array
-var listaFilmes = ["https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"];
+var listaFilmes = ["https://bit.ly/3cnk0sL", "https://bit.ly/3lQibYB","https://bit.ly/3waLdXI", "https://bit.ly/3tW0zNC", "https://bit.ly/3d253vq", "https://bit.ly/3lQSCGN", ""];
 
 //Mostra a imagem do Array em HTML
 for (var i = 0; i < listaFilmes.length; i++) {
