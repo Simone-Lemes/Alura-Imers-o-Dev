@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Mono',monospace;
-    min-height: 600px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');
+    min-height: 400px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
     background-color: #000000;
     background-size: cover;
     background-position: center bottom;
@@ -27,12 +27,21 @@ body {
   .page-logo {
     width: 200px;
   }
+
+  .bruxa {
+    width: 500px;
+    height:500px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/26/12/11/witch-5439350_960_720.jpg');
+    margin:2em 25em 2em;
+    position: relative;
+    
   
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right:10px;
+  }
+    .alura-logo {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
   }
   
   @media (max-height: 500px) {
