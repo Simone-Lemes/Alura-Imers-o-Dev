@@ -29,11 +29,22 @@ body {
 
   .Título {
     max-width:200px;
-    max-height:150px;
+    max-height:200px;
     width: auto;
-    height: auto;
-    margin: 300px 30em 50px;
+    height:auto;
+    margin: 300px 5em auto;
     position:absolute;
+  }
+
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    max-height: 25%;
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 30px;
   }
 
   .row {
@@ -45,14 +56,45 @@ body {
     
   }
   
-  .column {
+  #listaFilmes img {
+    margin: 1px;
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
+    max-height: 25%;
     display: grid;
-    grid-gap: 50px;
-    grid-template-columns: 10em auto 10em auto 10em auto;
-    padding: 10px;
+    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 30px;
+  }
+
+  .Filmes {
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height:auto;
+    margin: 300px 5em auto;
+    position:absolute;
+  }
+
+  .column2 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    max-height: 25%;
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 30px;
+  }
+
+  .row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
   }
 
   .alura-logo {
