@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://lh3.googleusercontent.com/lA7WVtUuAU4tq5mvYhybVrcD_qHYQidDxHWG_-ytHbvHCmFyH7rfPWzgsXvNRPxNlaT8RvJyyzOo27HzsOUYuLkXnjEmbLNV6muGTZCRpCfcfjbnolJic1FafMfs5gCB0n24J5xHwWkwBU03p5W_UnjAeCu8CfW_QlETJr9cgc5-J3g3Q4XCHiwDZVh2Y7z7PbsvDv-SeKLQg7dpQxigZlILW2W-QmFYdhEJkUAgqPP4OTsF30nEOAzj8HcFINEIObfKj42B4oFhgEQqjNoOhCc-_Zpx5lf__qlD1v5j9YSiml6imqLGyHNLyrBqwl3uHyDCLvu3zJfGVhKgIuqmiWlXy5hUpWEBhk88t5yHtYISbHROOpgYVvc_ty_cvzFSuuBcKVHBuM-m7lgOuvKOw0dYmHNUg15yo82jYuZ-2k8PxWO0EVKpaoKHRgPI_P1yWNTbm1zZUb5esh6tZgHKLpAV9lrVcnTX4MnuKnk7YGBLQ4fXR44VRKisM9G33pYkcRTmAjTjf4A2QHiH721J4dojPN-HppycEgrdPUbLC6hB9jstfXpVnfxDY_EVRd4PTRycQ68yt7VVXf5xha58BmSBFrIj3WaLXo50Fycpu07YY7peF_VR5--2JFoYEBRrKVFU6NmV9kuuXIy2SKbULE34AGvzwecaxWHXQQZtdDn2-yYYVk9b7AqcoYilyQ2DrjdR5cqQJ9cLTpJvPK46JYLvGA=w539-h625-no?authuser=0');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @keyframes neon {
+    from {
+      filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+      filter: drop-shadow(0 0 60px var(--cor-neon));
+    }
+  }
+  
+  .posterBox{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll
+  }
+  
+  .imagensFilme:hover{
+    /*top: 10px;*/
+    box-shadow: 0 20px 19px black; 
+  }
+  
+  .imagensSerie:hover{
+    box-shadow: 0 20px 19px black;
+  }
+  
+  .imagensJogo:hover{
+    box-shadow: 0 20px 19px black;
+  }
+  
+  .imagensFilme{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: auto;
+    height: auto;
+    margin: 15px;
+  }
+  
+  
+  .conteudoFilme{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: 280px;
+    /* height: 400px; */
+    margin: 15px;
+    animation: neon 2s alternate infinite ease-in-out;
+    --cor-neon: purple;
+  }
+  
+  .imagensSerie{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: auto;
+    height: auto;
+    margin: 15px;
+  }
+  
+  
+  .conteudoSerie{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: 280px;
+    /* height: 400px; */
+    margin: 15px;
+    animation: neon 2s alternate infinite ease-in-out;
+    --cor-neon: purple;
+  }
+  
+  .imagensJogo{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: auto;
+    height: auto;
+    margin: 15px;
+  }
+  
+  
+  .conteudoJogo{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid purple;
+    width: auto;
+    /* height: 400px; */
+    margin: 15px;
+    animation: neon 2s alternate infinite ease-in-out;
+    --cor-neon: purple;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 55px;
+    color: #ffffff;
+  }
+  
+  h3{
+    color: #ffffff;
+  }
+  
+  body > img {
+    margin: 0 10px;
+    padding: 10px;
+  }
+  
+  -----------------------------
+  <body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>

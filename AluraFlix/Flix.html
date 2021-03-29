@@ -9,31 +9,25 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="page-title">
+     <h1 class="page-title">
             AluraFlix
-        </h1>
+      </h1>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
             alt="">
-            <div class="Título">
-             <div class="row"></div>
-              <div class="column">  
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  <img src="https://cdn.pixabay.com/photo/2012/04/15/19/10/rectangle-34969_960_720.png" width="" height="100" />
-                  </div>
-                </div>
+            <p class="page-subtitle">
+                Qual seu filme favorito?
+            </p>
+            <div class="form-wrapper">
+                <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+                <button onClick="adicionarFilme()">Adicionar Filme</button>
             </div>
-        </div>
-            <div id="listaFilmes"> 
-             </div>
-             <div id="listaNomes"> 
-            </div>
-    <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
+    </div>
+
+        <div id="listaFilmes"></div>
+        <div id="listaNomesFilmes"> 
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
 </body>
 
 </html>

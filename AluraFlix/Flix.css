@@ -13,20 +13,6 @@ body {
     padding: 20px;
   }
   
-  .containerFilmes {
-  margin: 10px 10px;
-  width: 200px;
-  font-size: 12px;
-  /*padding: 10px;*/
-  padding: 12px 5px;
-  color: white; /*Cor da fonte*/
-  display: inline-block;
-  border-radius: 10px;
-  background-color: rgb(0,0,0,20%);
-  transition: 1s;
-  /*border: 3px solid white;*/
-  }
-  
   .page-title {
     color: #ffffff;
     margin: 0 0 5px;
@@ -41,76 +27,6 @@ body {
     width: 200px;
   }
 
-  .Título {
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height:auto;
-    margin: 300px 5em auto;
-    position:absolute;
-  }
-
-  .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    max-height: 25%;
-    display: grid;
-    grid-gap: 80px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    font-size: 30px;
-  }
-
-  .row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    
-  }
-  
-  #listaFilmes img {
-    margin: 1px;
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    max-height: 25%;
-    display: grid;
-    grid-gap: 80px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    font-size: 30px;
-  }
-
-  .Filmes {
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height:auto;
-    margin: 300px 5em auto;
-    position:absolute;
-  }
-
-  .column2 {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    max-height: 25%;
-    display: grid;
-    grid-gap: 80px;
-    grid-template-columns: auto auto auto auto auto auto;
-    font-size: 30px;
-  }
-
-  .row2 {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    
-  }
-
   .alura-logo {
     width: 40px;
     position: absolute;
@@ -118,12 +34,55 @@ body {
     right:10px;
   }
   
+  .posterBox{
+    display: flex;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .imagensFilme{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid rgb(14, 165, 185);
+    width: auto;
+    height: auto;
+    margin: 15px;
+  }
+  
+  .conteudoFilme{
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid rgb(79, 76, 201);
+    width: 280px;
+    margin: 15px;
+    background-color: #030922ec;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+
+  h1 {
+    text-align: center;
+    font-size: 55px;
+    color: #ffffff;
+  }
+  
+  h2 {
+    color: #ffffff;
+   
+  }
+
   body > img {
     margin: 0 10px;
   }
 
-  @media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
-  }
+ 
+
+
+
+  
