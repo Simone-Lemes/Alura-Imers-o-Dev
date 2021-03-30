@@ -167,3 +167,20 @@ body {
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
 </body>
+
+
+
+#listaFilmes img {
+    cursor: pointer;
+    transition: .3s;
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    background-color:rgb(51,144,199);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(51,125,190);
+    width: auto;
+    margin: 15px;
+  }

@@ -2,10 +2,11 @@ body {
     font-family: 'Roboto Mono',monospace;
     text-align:center;
     background-image: url('https://store-images.s-microsoft.com/image/apps.49053.9007199266243729.2a448862-861e-4e45-9b90-eabb91ef033a.df35265b-cd4b-4a1c-a98d-968d755fb3de?mode=scale&q=90&h=600&w=1200&background=%23FFFFFF');
-    background-color: #000000;
+    background-color: #1322f1d2;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+
   }
 
   .container {
@@ -20,7 +21,8 @@ body {
   
   .page-subtitle {
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 30px;
+    font-size: 20px;
   }
   
   .page-logo {
@@ -33,13 +35,76 @@ body {
     top: 10px;
     right:10px;
   }
+
+  #listaFilmes img {
+    cursor: pointer;
+    transition: .3s;
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    border: 5px solid rgb(14, 165, 185);
+    width: auto;
+    height: auto;
+    margin: 15px;
+  }
+
+  #listaFilmes .posterBox {
+    display: flex;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    overflow-x:scroll;
+    margin-right: 20px;
+    margin-right: 20px;
+  }
+
+  #listaFilmes .conteudoFilme {
+    display: inline-block;
+    justify-content: center;
+    Color: white;
+    background-color:rgb(51,144,199);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(51,125,190);
+    width: auto;
+    margin: 15px;
+  }
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button{
+    border: 0;
+    color: #ffffff;
+    background: #1322f1;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
   
   .posterBox{
     display: flex;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-  
+    overflow-x:scroll;
+    margin-right: 20px;
+    margin-right: 20px;
   }
   
   .imagensFilme{
@@ -56,25 +121,43 @@ body {
     display: inline-block;
     justify-content: center;
     Color: white;
-    border: 5px solid rgb(79, 76, 201);
-    width: 280px;
-    margin: 15px;
-    background-color: #030922ec;
+    background-color:rgb(51,144,199);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    border: 5px solid rgb(51,125,190);
+    width: 280px;
+    margin: 15px;
+    
   }
   
+  .imagensFilme:hover {
+    border-color: rgb(56,210,152);
+    box-shadow: 0 20px 19px black; 
+    
+  }
 
+  .conteudoFilme:hover {
+    border-color: rgb(56,210,152);
+    box-shadow: 0 20px 19px black; 
+    
+  }
+  
   h1 {
     text-align: center;
     font-size: 55px;
     color: #ffffff;
   }
   
+  h3 {
+    text-align: left;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 20px;
+  }
+
   h2 {
     color: #ffffff;
-   
   }
 
   body > img {
