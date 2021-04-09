@@ -1,3 +1,5 @@
+alert ("🤑💵 Vamos fazer uma conversão de moedas. \nVocê deve digitar o número que deseja calcular em Dólares para converter em Reais \nClique em OK para começar 💵🤑");
+
 var valorEmDolarTexto = prompt("Qual valor em dólar você quer converter?");
 
 var valorEmDolarTexto = parseFloat(valorEmDolarTexto);

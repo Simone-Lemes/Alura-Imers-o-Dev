@@ -1,3 +1,5 @@
+alert ("🤑🤔 Vamos fazer umas operações matemáticas ? \nVocê deve digitar o número que deseja calcular \nClique em OK para começar 🤑🤔");
+
 var primeiroValor = parseInt(prompt("Digite o primeiro valor: "))
 //var primeiroValorInt = parseInt(primeiroValor); (Também pode ser escrito assim)
 var segundoValor = parseInt(prompt("Digite o segundo valor: "))
