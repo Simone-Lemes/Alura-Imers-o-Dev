@@ -5,7 +5,8 @@ var primeiroValor = parseInt(prompt("Digite o primeiro valor: "))
 var segundoValor = parseInt(prompt("Digite o segundo valor: "))
 
 //cálculos
-var  operacao = prompt("Digite 1 para fazer uma divisão, 2 para fazer uma multiplicação, 3 para soma e 4 para subtração: ")
+var  operacao = prompt("Digite: \n1 para fazer uma divisão \n2 para fazer uma multiplicação \n3 para soma  \n4 para subtração \nVeja o resultado na tela da calculadora ")
+
 
 if (operacao == 1) {
     var resultado = primeiroValor / segundoValor
