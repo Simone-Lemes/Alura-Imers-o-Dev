@@ -1,51 +1,51 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
-    background-color: #000000;
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
 
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.bruxa {
+  width: 500px;
+  height: 500px;
+  background-image: url('https://cdn.pixabay.com/photo/2020/07/26/12/11/witch-5439350_960_720.jpg');
+  margin-left: 37em;
+  position: absolute;
+  
+}
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+     
+@media (max-height: 1200px) {
   .bruxa {
-    width: 500px;
-    height:500px;
-    background-image: url('https://cdn.pixabay.com/photo/2020/07/26/12/11/witch-5439350_960_720.jpg');
-    margin:2em 25em 2em;
-    position: relative;
-    
-  
+    min-height: 300px;
   }
-    .alura-logo {
-      width: 40px;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-  }
-  
-  @media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
-  }
+}

@@ -1,4 +1,4 @@
-alert ("🤗🔮 Vamos brincar de adivinhação ? \nVocê deve tentar descobrir qual é o número secreto\nClique em OK para começar🔮🤗");
+alert ("🤗🔮 Vamos brincar de adivinhação ? 🔮🤗\nVocê deve tentar descobrir qual é o número secreto\nClique em OK para começar");
 
 var numeroAleatorio = parseInt(Math.random()* 10)
 var numeroTentativas = 3;
@@ -16,12 +16,12 @@ var numeroTentativas = 3;
                 continue;
                
                } else if (numeroChute < numeroAleatorio) {
-                alert (" O número secreto é maior, você está quase lá ");
+                alert (" O número secreto é maior, você está quase lá");
                 continue;
             }
           }
                 if (numeroChute != numeroAleatorio) {
-                    alert ("Que pena 😓 suas tentativas acabaram. O número secreto era " + numeroAleatorio);
+                alert ("Que pena 😓 suas tentativas acabaram. O número secreto era " + numeroAleatorio);
       }
             
         

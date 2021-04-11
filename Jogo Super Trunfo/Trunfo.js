@@ -1,10 +1,3 @@
-var audio1 = new Audio('https://freesound.org/data/previews/263/263132_2064400-lq.mp3');
-var vitoria = new Audio('https://freesound.org/data/previews/517/517761_9996727-lq.mp3');
-var derrota = new Audio('https://freesound.org/data/previews/558/558972_10403565-lq.mp3');
-var empate = new Audio('https://freesound.org/data/previews/395/395482_7509543-lq.mp3');
-var musica = new Audio('https://mp3.fastupload.co/data/1617164057/yt1s.com-Medieval-Instrumental-Music-Medieval-Life.mp3');
-console.clear();
-
 var cartaPaulo = {
     nome: "Seiya de Pegaso",
     imagem: "https://i.pinimg.com/originals/c2/1a/ac/c21aacd5d092bf17cfff269091f04606.jpg",
@@ -93,7 +86,6 @@ var cartas = [cartaPaulo, cartaRafa, cartaGui, cartaLol, cartaNaruto, cartaHarry
 var pontosJogador = 0
 var pontosMaquina = 0
 
-musica.play();
 atualizaPlacar()
 atualizaQuantidadeDeCartas()
 
@@ -112,10 +104,6 @@ function atualizaPlacar() {
 }
 
 function sortearCarta() {
-    audio1.play();
-    musica.play();
-    musica.loop = true;
-
     var numeroCartaMaquina = parseInt(Math.random() * cartas.length)
     cartaMaquina = cartas[numeroCartaMaquina]
     cartas.splice(numeroCartaMaquina, 1)
@@ -130,9 +118,6 @@ function sortearCarta() {
     exibeCartaJogador()
 }
 
-  //Mostra imagem da url na carta (interpolação)
-  //Mostra opções da carta junto da imagem 
-  //Ambos do CSS
 function exibeCartaJogador() {
     var divCartaJogador = document.getElementById("carta-jogador")
     var moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';

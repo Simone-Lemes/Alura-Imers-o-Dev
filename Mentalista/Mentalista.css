@@ -35,8 +35,8 @@ body {
     right:10px;
   }
   
-  @media (max-height: 500px) {
+  @media (max-height: 1200px) {
     body {
-      min-height:800px;
+      min-height:300px;
     }
   }
