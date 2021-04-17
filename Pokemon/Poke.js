@@ -1,4 +1,4 @@
-alert ("🎮 Descubra o nome do Pokémon escolhendo um número de 1 a 3 \nClique em OK para começar🎮");
+alert ("🎮 Descubra o nome do Pokémon 🎮  \nClique em OK para começar");
 
 var identificacao = parseInt(prompt("Qual o nome desse Pokémon ? Digite: \n1 para Charmeleon \n2 para Charizard \n3 para Charmander"))
 var nome = "Parabéns!!! 🥳 \nVocê acertou esse é o Charmander"
@@ -18,6 +18,7 @@ if (identificacao == 3) {
 //if = se
 //else = senão
 //else if = se não se
+
 
 
 
