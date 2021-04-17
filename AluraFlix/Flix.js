@@ -9,7 +9,7 @@ let posterArrF = "";
 for (var i=0; i<listaFilmes.length; i++) {
   posterArrF += '<div class="conteudoFilme"> <div class="imagem"> <a class="movie" href='+trailerFilmes[i]+' target="_blank"> <img src='+listaFilmes[i]+' class="imagensFilme"> </a> </div> <h2>'+listaNomesFilmes[i]+'</h2> </div>';
 }
-document.write("<h3>Filmes</h3>")
+
 document.write(`<div class="posterBox">${posterArrF}</div>`)
 
 function adicionarFilme() {

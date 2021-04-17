@@ -1,171 +1,181 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    text-align:center;
-    background-image: url('https://store-images.s-microsoft.com/image/apps.49053.9007199266243729.2a448862-861e-4e45-9b90-eabb91ef033a.df35265b-cd4b-4a1c-a98d-968d755fb3de?mode=scale&q=90&h=600&w=1200&background=%23FFFFFF');
-    background-color: #1322f1d2;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+  max-width: 100vw;
+  min-height : 100vh;
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://store-images.s-microsoft.com/image/apps.49053.9007199266243729.2a448862-861e-4e45-9b90-eabb91ef033a.df35265b-cd4b-4a1c-a98d-968d755fb3de?mode=scale&q=90&h=600&w=1200&background=%23FFFFFF');
+  background-color: #1322f1d2;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 
-  }
+}
 
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 30px;
-    font-size: 20px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
+body > img {
+margin: 0 10px;
+}
 
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right:10px;
-  }
+.container {
+  text-align: center;
+  padding: 20px;
+   min-height : 100vh;
+}
 
-  #listaFilmes img {
-    cursor: pointer;
-    transition: .3s;
-    display: inline-block;
-    justify-content: center;
-    Color: white;
-    border: 5px solid rgb(14, 165, 185);
-    width: auto;
-    height: auto;
-    margin: 15px;
-  }
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
 
-  #listaFilmes .posterBox {
-    display: flex;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    overflow-x:scroll;
-    margin-right: 20px;
-    margin-right: 20px;
-  }
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 20px;
+}
 
-  #listaFilmes .conteudoFilme {
-    display: inline-block;
-    justify-content: center;
-    Color: white;
-    background-color:rgb(51,144,199);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    border: 5px solid rgb(51,125,190);
-    width: auto;
-    margin: 15px;
-  }
-  .form-wrapper {
-    margin: 0 0 15px;
-  }
-  
-  .form-wrapper input{
-    display: block;
-    margin: 0 auto;
-    padding: 10px 15px;
-  }
-  
-  .form-wrapper button{
-    border: 0;
-    color: #ffffff;
-    background: #1322f1;
-    font-weight:bold;
-    padding: 15px 20px;
-    font-size: 16px;
-    borde-radius: 4px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: .3s;
-  }
-  
-  .form-wrapper button:hover {
-    opacity:.8;
-  }
-  
-  .posterBox{
-    display: flex;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    overflow-x:scroll;
-    margin-right: 20px;
-    margin-right: 20px;
-  }
-  
-  .imagensFilme{
-    display: inline-block;
-    justify-content: center;
-    Color: white;
-    border: 5px solid rgb(14, 165, 185);
-    width: auto;
-    height: auto;
-    margin: 15px;
-  }
-  
-  .conteudoFilme{
-    display: inline-block;
-    justify-content: center;
-    Color: white;
-    background-color:rgb(51,144,199);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    border: 5px solid rgb(51,125,190);
-    width: 280px;
-    margin: 15px;
-    
-  }
-  
-  .imagensFilme:hover {
-    border-color: rgb(56,210,152);
-    box-shadow: 0 20px 19px black; 
-    
-  }
+.page-logo {
+  width: 200px;
+}
 
-  .conteudoFilme:hover {
-    border-color: rgb(56,210,152);
-    box-shadow: 0 20px 19px black; 
-    
-  }
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+#listaFilmes img {
+  cursor: pointer;
+  transition: .3s;
+  display: inline-block;
+  justify-content: center;
+  Color: white;
+  border: 5px solid rgb(14, 165, 185);
+  width: auto;
+  height: auto;
+  margin: 15px;
+}
+
+#listaFilmes .posterBox {
+  display: flex;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow-x:scroll;
+  margin-right: 20px;
+  margin-right: 20px;
+}
+
+#listaFilmes .conteudoFilme {
+  display: inline-block;
+  justify-content: center;
+  Color: white;
+  background-color:rgb(51,144,199);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border: 5px solid rgb(51,125,190);
+  width: auto;
+  margin: 15px;
+}
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button{
+  border: 0;
+  color: #ffffff;
+  background: #1322f1;
+  font-weight:bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  borde-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form-wrapper button:hover {
+  opacity:.8;
+}
+
+.posterBox{
+  display: flex;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow-x:scroll;
+  margin-right: 20px;
+  margin-right: 20px;
+}
+
+.imagensFilme{
+  display: inline-block;
+  justify-content: center;
+  Color: white;
+  border: 5px solid rgb(14, 165, 185);
+  width: auto;
+  height: auto;
+  margin: 15px;
+}
+
+.conteudoFilme{
+  display: inline-block;
+  justify-content: center;
+  Color: white;
+  background-color:rgb(51,144,199);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border: 5px solid rgb(51,125,190);
+  width: 280px;
+  margin: 15px;
   
-  h1 {
-    text-align: center;
-    font-size: 55px;
-    color: #ffffff;
-  }
+}
+
+.imagensFilme:hover {
+  border-color: rgb(56,210,152);
+  box-shadow: 0 20px 19px black; 
   
-  h3 {
-    text-align: left;
-    font-size: 30px;
-    color: #ffffff;
-    margin: 20px;
-  }
+}
 
-  h2 {
-    color: #ffffff;
-  }
-
-  body > img {
-    margin: 0 10px;
-  }
-
- 
-
-
-
+.conteudoFilme:hover {
+  border-color: rgb(56,210,152);
+  box-shadow: 0 20px 19px black; 
   
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: left;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 20px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+
+
+
+
