@@ -2,7 +2,7 @@ var listaFilmes = ["https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00
 
 var listaNomesFilmes = ["Toy Story", "Monstros S.A", "Procurando o Nemo", "Up: Altas Aventuras", "Como treinar o seu Dragão", "Wall E","Pokémon"]
 
-var trailerFilmes = ["https://www.imdb.com/video/imdb/vi2052129305?playlistId=tt0114709&ref_=tt_ov_vi","https://www.imdb.com/video/imdb/vi518890521?playlistId=tt0198781&ref_=tt_ov_vi","https://www.imdb.com/video/imdb/vi2687214105?playlistId=tt0266543&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi2557280793?playlistId=tt1049413&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi1158218777?playlistId=tt0892769&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi2192703769?playlistId=tt0910970&ref_=tt_ov_vi"]
+var trailerFilmes = ["https://www.imdb.com/video/imdb/vi2052129305?playlistId=tt0114709&ref_=tt_ov_vi","https://www.imdb.com/video/imdb/vi518890521?playlistId=tt0198781&ref_=tt_ov_vi","https://www.imdb.com/video/imdb/vi2687214105?playlistId=tt0266543&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi2557280793?playlistId=tt1049413&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi1158218777?playlistId=tt0892769&ref_=tt_pr_ov_vi","https://www.imdb.com/video/imdb/vi2192703769?playlistId=tt0910970&ref_=tt_ov_vi","https://www.imdb.com/video/vi937672217?playlistId=tt0168366&ref_=tt_ov_vi"]
 
 
 let posterArrF = "";
