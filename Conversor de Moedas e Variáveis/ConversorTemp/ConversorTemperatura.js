@@ -8,7 +8,7 @@ var valorEmCelsiusTexto = parseInt(valorEmCelsiusTexto);
 var valorEmFahrenheit = (valorEmCelsiusTexto * 1.8) +  32;
 var valorEmFahrenheitFixado = valorEmFahrenheit.toFixed (1);
 
-alert("O Valor em Fahrenheit é de " + valorEmFahrenheitFixado);
+alert("🌡️ O Valor em Fahrenheit é de 🌡️ " + valorEmFahrenheitFixado);
 
 
 
@@ -20,7 +20,7 @@ var valorEmFahrenheitTexto = parseInt(valorEmFahrenheitTexto);
 var valorEmCelsius = (valorEmFahrenheitTexto - 32) / 1.8 ;
 var valorEmCelsiusFixado = valorEmCelsius.toFixed (1);
 
-alert("O Valor em graus Celsius é de " + valorEmCelsiusFixado);
+alert("🌡️ O Valor em graus Celsius é de 🌡️ " + valorEmCelsiusFixado);
 
 //Revisão
 
