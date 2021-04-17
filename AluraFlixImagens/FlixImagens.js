@@ -1,4 +1,4 @@
-alert ("📷 Vamos adicionar fotos a uma coleção ? \nVocê deve copiar o link de uma imagem jpg e inserir no campo endereço de imagem 📷");
+alert ("📷 Vamos adicionar fotos a uma coleção 📷  \nVocê deve copiar o link de uma imagem jpg e inserir no campo endereço de imagem");
 
 function adicionarImagens() {
     var campoImagemFavorita = document.querySelector('#imagem')
